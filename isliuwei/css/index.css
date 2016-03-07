@@ -1,0 +1,533 @@
+/*--------------------------------------------------
+----------------------- index styles ----------------
+---------------------------------------------------*/
+
+
+/*----------样式重置----------*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+    color: #000;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+img{
+	border: 0;
+}
+
+
+.icon{
+
+}
+
+body{
+    /*font-family: 'Raleway', 'Calibri', Arial, sans-serif;*/
+    background: #E4E4E8;
+    /*color: #606777;*/
+    /*-webkit-font-smoothing: antialiased;*/
+}
+
+
+
+/*-----------------------------------*/
+/*------------  Siderbar  -----------*/
+/*-----------------------------------*/
+
+
+
+
+
+#side-menu{
+    position: relative;
+}
+#side-menu .side-tip{
+	width: 50px;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background: rgba(43, 48, 59, 0.96);
+    z-index: 999;
+    padding: 8px 0;
+    text-align: center;
+}
+
+#side-menu .side-tip a{
+	color: #81B71A;
+	width: 34px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    background: rgba(33, 37, 45, 0.73);
+    margin-bottom: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+#side-menu .side-tip a:hover{
+	color: rgba(33, 37, 45, 0.73);
+	background: #81B71A;
+	border-radius: 5px;
+	webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+#side-menu .side-content{
+	width: 500px;
+    height: 50px;
+    position: absolute;
+    left: -225px;
+    bottom: 235px;
+    line-height: 50px;
+    text-align: left;
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#side-menu .side-content .domain-name{
+	color: #81B71A;
+	display: inline;
+	font-size: 19px;
+	margin: 0 10px 0 20px;
+}
+#side-menu .side-content .domain-tip{
+	display: inline;
+	font-weight: 300;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #788195;
+}
+
+
+#side-menu .side-main{
+	position: fixed;
+    z-index: 999;
+    color: #788195;
+    width: 240px;
+    height: 100%;
+    left: 50px;
+    top: 0px;
+    background: #2b303b;
+    padding-top: 42px;
+}
+
+#side-menu .side-main .side-header{
+	text-align: center;
+}
+
+#side-menu .side-main .my-photo{
+	width: 140px;
+	height: 140px;
+	padding: 5px;
+	
+}
+
+#side-menu .side-main .img-wrap{
+	width: 150px;
+    height: 150px;
+    border: 5px solid rgba(120, 129, 149, 0.19);
+    margin: 0 auto;
+}
+
+#side-menu .profile-info{
+	margin-top: 10px;
+}
+#side-menu .profile-info h1{
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+}
+#side-menu .profile-info h4{
+	font-size: 16px;
+	font-weight: 300;
+	margin: 10px 0;
+	text-align: center;
+}
+#side-menu .profile-info h6{
+	text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 7px 0;
+    text-align: center;
+}
+#side-menu .separator-aside{
+    display: block;
+    border-top: 1px solid #606777;
+    height: 0;
+    margin: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    opacity: 0.4;
+}
+#side-menu .side-nav{
+    overflow: scroll;
+
+}
+#side-menu .side-nav li{
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    
+}
+#side-menu .side-nav li a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 20px;
+    color: #788195;
+    font-weight: 900;
+    margin: 5px 0;
+}
+#side-menu .side-nav li a:hover{
+    color: #fff;
+    font-size: 20px;
+    webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+}
+#side-menu .side-nav .menu-name{
+    float: left;
+}
+#side-menu .side-nav .menu-icon{
+    float: right;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    background: #ccc;
+    text-align: center;
+    background: #21252d;
+    color: #788195;
+    font-size: 22px;
+    float: right;
+}
+#side-menu .side-nav li a:hover .menu-icon{
+    background: #788195;
+    color: #2b303b;
+    border-radius: 5px;
+    webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.side-footer .social-list a{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+
+}
+.side-footer .social-list a:hover{
+    font-size: 22px;
+    border-radius: 5px;
+    webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.side-footer .social-list .github:hover{
+    background: #289D3E;
+    color: #fff;
+}
+.side-footer .social-list .envelope:hover{
+    background: #3169F5;
+    color: #fff;
+}
+.side-footer .social-list .qq:hover{
+    background: #70CEF9;
+    color: #fff;
+}
+.side-footer .social-list .weibo:hover{
+    background: #FFC72C;
+    /*color: #F10013;*/
+    color: #E52A22;
+
+}
+.side-footer .social-list .weixin:hover{
+    background: #81B71A;
+    color: #fff;
+}
+.side-footer .social-list li{
+    float: left;
+    margin: 0 8px;
+}
+.side-footer{
+    position: absolute;
+    bottom: 40px;
+    height: 50px;
+    width: 100%;
+    line-height: 44px;
+    text-align: center;
+    background: #262A34;
+}
+
+
+
+
+/*-----------------------------------*/
+/*----------  Main Header  ----------*/
+/*-----------------------------------*/
+
+
+#main .main-header{
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    width: 100%;
+    background: #f2f2f4;
+    padding-left: 290px;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    right: 0;
+    webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#main .main-header li{
+    float: left;
+}
+
+#main .main-header .scroller-list a{
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    color: #788195;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    border-right: 1px solid #DFDFDF;
+    cursor: pointer;
+}
+
+#main .main-scroller a.active{
+    color: #3169F5;
+}
+
+#main .main-scroller a:hover{
+    color: #3169F5;
+    font-size: 25px;
+}
+
+#main .info-scroll span{
+    color: #289D3E;
+    padding-left: 15px;
+    padding-right: 10px;
+    float: left;
+}
+
+#main .rolling-list{
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 22px;   
+}
+#main .rolling-list li{
+    display: none;
+    float: left; 
+    margin-right: 22px;   
+}
+#main .rolling-list a{
+    color: #788195;
+    padding-top: 2px;
+    font-size: 13px;
+    display: block;
+}
+#main .rolling-list .rolling-show{
+    display: block;
+}
+/*.wrap{
+    margin: 60px auto;
+}*/
+
+.page-wrap{
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    margin: 10px;
+    /*width: 100%;
+    height: 100%;*/
+    width: 970px;
+    background: #fff;
+}
+
+
+
+#about-me .personal-info{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+}
+#about-me .personal-list{
+    margin-top: 20px;
+}
+#about-me .personal-list li{
+    margin: 10px;
+    padding-bottom: 2px;
+    color: #717171;
+    display: block;
+    font-size: 13px;
+    border-bottom: 1px solid #e6e6e6;
+}
+#about-me .personal-list i{
+    color: #3B5998;
+}
+#about-me .personal-list label{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #3B5998;
+}
+#about-me .about-title{
+    padding: 15px 10px 10px 10px;  
+}
+#about-me .about-title h2{
+    color: #3B5998
+}
+#about-me .personal-info h3{
+    padding: 9px 9px 9px 0;
+    display: inline;
+    color: #3B5998;
+    font-size: 12px;
+    position: relative;
+}
+#about-me .personal-info h3:after {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+}
+#about-me .personal-list .value{
+    display: inline-block;
+    width: 220px;
+    text-align: left;
+    float: right;
+}
+#about-me .personal-list a{
+    color: #3B5998;
+}
+
+
+
+#about-me .photo-show{
+    width: 45%;
+    height: 460px;
+    margin-right: 10px;
+    background: #ccc;
+    float: right;
+}
+#about-me .personal-info p{
+    color: #717171;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+#about-me .interests-title{
+    color: #3B5998;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+
+#about-me .interests-watch,.interests-tennis{
+    margin-left: 10px;
+    width: 200px;
+    height: 295px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+#about-me .interests-watch img,.interests-tennis img{
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+}
+#about-me .interests-travel{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 490px;
+    height: 125px;
+    float: left;
+    position: relative;
+}
+#about-me .interests-travel img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#about-me .interests-cycle,.interests-cycle1{
+    width: 240px;
+    height: 130px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+#about-me .interests-cycle img,.interests-cycle1 img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#about-me .interests-img img{
+    border-radius: 5px;
+}
+
+
+
+
+#resume{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

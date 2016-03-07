@@ -1,0 +1,193 @@
+
+/*-----------------------------------*/
+/*------------   Resume   -----------*/
+/*-----------------------------------*/
+
+#resume .resume-title{
+    padding: 15px 10px 10px 10px;  
+}
+#resume .resume-title h2{
+    color: #3B5998;
+}
+#resume .download-button{
+	position: fixed;
+	color: #fff;
+	right: 10px;
+	display: inline-block;
+	background: #3B5998;
+	padding: 10px 15px;
+} 
+#resume .download-button:hover{
+	border-radius: 5px;
+	background: #81B71A;
+	color: #fff;
+	border-radius: 10px 0 10px 0;
+}
+
+
+
+
+
+#resume .resume-content{
+    float: left;
+    padding-left: 40px;
+    width: 40%;
+}
+#resume .resume-content .resume-title{
+    padding: 9px 9px 9px 0;
+    display: inline;
+    color: #3B5998;
+    font-size: 18px;
+    position: relative;
+}
+#resume .resume-content .resume-title:after{
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+}
+
+#resume .resume-item{
+	margin-top: 30px;
+	width: 400px;
+	
+}
+#resume .resume-item li{
+	position: relative;
+}
+
+#resume .resume-item .resume-tip{
+	width: 45px;
+    height: 100%;
+    font-size: 15px;
+    line-height: 30px;
+	position: relative;
+    margin-bottom: 20px;
+    background: #81B71A;
+} 
+#resume .resume-tag{
+	width: 45px;
+    height: 100%;
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #81B71A;
+    border-top: 1px solid #81B71A;
+}
+#resume .resume-tag span{
+	display: block;
+	margin: 5px;
+
+	background: #5D9300;
+}
+#resume .resume-item .resume-data{
+	font-size: 10px;
+	text-align: center;
+	color: #fff;
+	background: #5D9300;
+
+}
+
+#resume .resume-data .separator{
+	display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.82);
+    height: 0;
+    margin: 0 auto;
+    width: 25px;
+}
+
+#resume .resume-item .resume-detail{
+	position: absolute;
+	top: 0px;
+	left: 55px;
+    background: rgba(248, 249, 251, 0.6);
+    padding: 10px;
+    border: 1px solid #DBDBE0;
+}
+#resume .resume-detail{
+	height: 132px;
+	color: #3B5998;
+}
+/*#resume .army-bg{
+	background: url(../image/69006.png) no-repeat;
+
+}*/
+#resume .resume-detail .army{
+	text-indent: 20px;
+	background: url(../image/css-sprite.png) no-repeat;
+}
+#resume .resume-detail .school-name{
+	color: #81B71A;
+	margin: 5px 0;
+}
+#resume .resume-detail .school-location{
+	float: right;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 5px;    
+}
+
+
+
+#resume .experience-content,.award-content{
+    float: left;
+    padding-left: 50px;
+    width: 45%;
+}
+#resume .experience-content .experience-title,.award-content .award-title{
+    padding: 9px 9px 9px 0;
+    display: inline;
+    color: #3B5998;
+    font-size: 18px;
+    position: relative;
+}
+#resume .experience-content .experience-title:after,.award-content .award-title:after{
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+}
+#resume .experience-list,.award-list{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#resume .experience-list li,.award-list li{
+	margin-top: 40px;
+}
+#resume .experience-list li h5,.award-list li h5{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #3B5998;
+}
+#resume .experience-list li h6,.award-list li h6{
+	color: #3B5998;
+	margin: 10px 0 10px 0;
+}
+#resume .experience-list li p,.award-list li p{
+	font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    margin: 0;
+    color: #999;
+    /*font-family: 'Lato', sans-serif;*/
+}
+#resume .experience-list li .duration,.award-list li .duration{
+	color: #3B5998;
+	position: absolute;
+	right: 20px;
+}
+
+
+
+
+
